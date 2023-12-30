@@ -1,0 +1,123 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:red;
+    --button-color:
+    #02dbf3;
+}
+a{
+    text-decoration: none;
+}
+.font-icon{
+    font-size: 30px;
+    color: var(--main-color);
+}
+.search{
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url(../image/mountain.jpeg) no-repeat center top 40% ;
+    background-size: cover;
+}
+.header-title{
+    padding-bottom: 100px;
+}
+.header-title a{
+    background-color:var( --button-color) ;
+    transition: 0.5s;
+}
+.header-title a:hover{
+    background-color: #098b8bb9;
+}
+.header-form input{
+    background-color: transparent;
+    border-radius: 5px;
+}
+.header-form a{
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+.header-form a:hover{
+    background-color: #ff0000a2;
+}
+
+
+.popular-images a{
+    padding: 8px;
+    color: white;
+    background-color: var(--button-color);
+    border-radius: 20px;
+}
+.popular-images-1{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/italy.jpeg)no-repeat center center ;
+    background-size: cover;
+    padding-top:200px ;
+}
+.popular-images-2{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/brazil.jpg)no-repeat center center ;
+    background-size: cover;
+     padding-top:200px ;
+}
+.popular-images-3{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/america.jpeg)no-repeat center center ;
+    background-size: cover;
+     padding-top:200px ;
+}
+.popular-images-4{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/nepal.jpeg)no-repeat center center ;
+    background-size: cover;
+     padding-top:200px ;
+}
+.popular-images-5{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/maldive1.jpeg)no-repeat center center ;
+    background-size: cover;
+     padding-top:200px ;
+}
+.popular-images-6{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/maldive2.jpeg)no-repeat center center ;
+    background-size: cover;
+     padding-top:200px ;
+}
+.subscribe{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../image/chatr.jpg)no-repeat center bottom 20% fixed ;
+    background-size: cover;
+}
+.subscribe-form a{
+    background-color: var(--main-color);
+}
+.subscribe-form a:hover{
+    background-color: #ff000091;
+}
+.enjoy{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/garden.jpeg)no-repeat center center ;
+    background-size: cover;
+    padding: 160px 0px;
+}
+.enjoy h2{
+    font-size: 50px;
+}
+.play-icon{
+    width: 60px;
+    height: 60px;
+    background-color: var(--button-color);
+    border-radius: 50%;
+    line-height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    cursor: pointer;
+}
+#footer{
+    background-color:#010115;
+}
+.footer-left i{
+    font-size: 40px;
+}
