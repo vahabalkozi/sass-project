@@ -24,7 +24,7 @@ a{
     cursor: pointer;
 }
 #header{
-    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url(../image/mountain.jpeg) no-repeat center top 40% ;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url(../image/mountain.jpg) no-repeat center top 40% ;
     background-size: cover;
 }
 .header-title{
@@ -57,7 +57,7 @@ a{
     border-radius: 20px;
 }
 .popular-images-1{
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/italy.jpeg)no-repeat center center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/italy.jpg)no-repeat center center ;
     background-size: cover;
     padding-top:200px ;
 }
@@ -67,22 +67,22 @@ a{
      padding-top:200px ;
 }
 .popular-images-3{
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/america.jpeg)no-repeat center center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/america.jpg)no-repeat center center ;
     background-size: cover;
      padding-top:200px ;
 }
 .popular-images-4{
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/nepal.jpeg)no-repeat center center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/nepal.jpg)no-repeat center center ;
     background-size: cover;
      padding-top:200px ;
 }
 .popular-images-5{
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/maldive1.jpeg)no-repeat center center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/maldive1.jpg)no-repeat center center ;
     background-size: cover;
      padding-top:200px ;
 }
 .popular-images-6{
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/maldive2.jpeg)no-repeat center center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/maldive2.jpg)no-repeat center center ;
     background-size: cover;
      padding-top:200px ;
 }
@@ -97,12 +97,12 @@ a{
     background-color: #ff000091;
 }
 .enjoy{
-    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/garden.jpeg)no-repeat center center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../image/garden.jpg)no-repeat center center ;
     background-size: cover;
     padding: 160px 0px;
 }
 .enjoy h2{
-    font-size: 50px;
+    font-size: 60px;
 }
 .play-icon{
     width: 60px;
@@ -113,6 +113,7 @@ a{
     position: absolute;
     left: 50%;
     top: 0%;
+    transform: translate(-50%,0%);
     cursor: pointer;
 }
 #footer{
@@ -120,4 +121,30 @@ a{
 }
 .footer-left i{
     font-size: 40px;
+}
+
+@media only screen and (max-width:767px) {
+    #nav{
+        position: relative;
+        overflow: hidden;
+    }
+    #nav button{
+        position: absolute;
+        top: 0%;
+        left: 85%;
+        height: 45px;
+        border-radius: 0px;
+        width: 50px;
+    }
+    .search{
+        position: absolute;
+        top: 0%;
+        left: 76%;
+        width: 30px;
+
+    }
+    .enjoy h2{
+        font-size: 40px;
+    }
+    
 }
