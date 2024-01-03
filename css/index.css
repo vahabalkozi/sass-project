@@ -131,16 +131,20 @@ a{
     #nav button{
         position: absolute;
         top: 0%;
-        left: 85%;
+        left: 90%;
         height: 45px;
         border-radius: 0px;
-        width: 50px;
+        width: 40px;
+        padding: 0px;
+        font-size: 10px;
+        box-shadow: none;
     }
     .search{
         position: absolute;
         top: 0%;
-        left: 78%;
+        left: 83%;
         width: 30px;
+        height: 45px;
 
     }
     .enjoy h2{
